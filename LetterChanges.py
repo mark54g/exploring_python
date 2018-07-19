@@ -20,4 +20,4 @@ def LetterChanges(word):
     newword = ''.join(map(str, newword))
     return newword
     
-print LetterChanges(raw_input())
+print LetterChanges(input())
